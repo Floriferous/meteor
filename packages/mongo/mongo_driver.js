@@ -1446,3 +1446,5 @@ MongoConnection.prototype._observeChangesTailable = function (
 MongoInternals.MongoTimestamp = MongoDB.Timestamp;
 
 MongoInternals.Connection = MongoConnection;
+
+MongoInternals.CursorDescription = CursorDescription;
